@@ -142,8 +142,7 @@ The system **leverages Redis** to cache FAQs and translations, significantly red
 ## Deployment
 This project can be deployed using **Vercel**, Docker, or any cloud provider.  
 
-- **Frontend Hosted on**: [Live UI](https://faq-client.vercel.app/)  
-- **Backend API Running at**: [Live API](https://faq-backend-api.vercel.app/)  
+
 
 ---
 
