@@ -1,3 +1,6 @@
+
+Frontend Deployment Link :- https://client-gamma-jet.vercel.app/
+Backend Deployment Link  : - https://bharat-fd-assignment-g8fr.onrender.com
 # FAQ Management API
 
 ## Overview
