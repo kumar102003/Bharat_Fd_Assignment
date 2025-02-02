@@ -1,0 +1,102 @@
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #0066cc; /* Classic blue border */
+  border-radius: 8px;
+  background-color: #f0f8ff; /* Light blue background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.title {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  color: #004080; /* Dark blue classic color */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px; /* Adds spacing between elements */
+  margin-bottom: 20px;
+}
+
+.select, .btn {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #004080; /* Dark blue border */
+  background: #e6f2ff; /* Soft blue background */
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.btn {
+  background-color: #0066cc; /* Classic blue button */
+  color: white;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #004080; /* Darker blue on hover */
+}
+
+.btn-danger {
+  background-color: #dc3545; /* Red for danger button */
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: #a71d2a;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background-color: white;
+}
+
+.table th, .table td {
+  padding: 12px;
+  border: 1px solid #ccc; /* Lighter borders */
+  text-align: left;
+}
+
+.table th {
+  background-color: #0066cc; /* Blue header */
+  color: white;
+  font-weight: bold;
+}
+
+.answer {
+  max-width: 300px;
+  overflow: hidden;
+  white-space: normal;
+  word-wrap: break-word;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #e6f2ff; /* Soft blue answer box */
+}
+
+.answer p {
+  margin: 0;
+  color: #003366; /* Dark blue text */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .controls {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .select, .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
